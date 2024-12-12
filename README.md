@@ -33,6 +33,7 @@ This also generates a .csv file and stores attendance data in the database.
 Database Integration
 To store attendance data in a database, install WAMP or any other MySQL server.
 Update the database name and connection details in the AMS_Run.py file to match your setup.
+
 Project Structure
 The project includes GUI options to capture images, train models, and automate attendance marking.
 Attendance data is securely stored in .csv files and can optionally be saved in a MySQL database.
