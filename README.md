@@ -16,19 +16,20 @@ Collect Face Data:
 Enter your ID and Name in the input fields.
 Click the Take Images button to capture 200 facial images.
 The captured images will be stored in the TrainingImage folder.
-Train the Model:
 
+Train the Model:
 Click the Train Image button to train the face recognition model.
 The training process takes approximately 5-10 minutes, depending on the amount of data.
 Once complete, the trained model will be saved in the TrainingImageLabel folder.
-Automatic Attendance:
 
+Automatic Attendance:
 Click the Automatic Attendance button to recognize faces and mark attendance using the trained model.
 The system will generate a .csv file containing attendance records based on the detected faces, time, and subject.
-Manual Attendance:
 
+Manual Attendance:
 Use the Manually Fill Attendance button in the UI to record attendance without face recognition.
 This also generates a .csv file and stores attendance data in the database.
+
 Database Integration
 To store attendance data in a database, install WAMP or any other MySQL server.
 Update the database name and connection details in the AMS_Run.py file to match your setup.
