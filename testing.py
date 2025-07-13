@@ -6,7 +6,6 @@ recognizer.read('TrainingImageLabel/trainner.yml')
 cascadePath = "haarcascade_frontalface_default.xml"
 faceCascade = cv2.CascadeClassifier(cascadePath)
 font = cv2.FONT_HERSHEY_SIMPLEX
-
 cam = cv2.VideoCapture(0)
 
 while True:
